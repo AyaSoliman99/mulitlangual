@@ -1,0 +1,48 @@
+.social-links{
+    display: flex;
+    // justify-content: space-between;
+    a{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        line-height: 55px;
+        text-align: center;
+        background-color: white;
+        margin-right:5px ;
+        color: $alt-paragraph-color;
+        border: 1px solid $alt-paragraph-color;
+        transition: $transition;
+        i{
+           font-size: 22px;
+           color: $alt-paragraph-color;
+        }
+        &:nth-of-type(1):hover {
+            &:hover i{
+                color: #fff;
+            }
+            border-color: #cc2366;
+            background:linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+        }
+        &:nth-of-type(2):hover {
+            &:hover i{
+                color: #fff;
+            }
+            border-color: #F70000;
+            background-color: #F70000;
+        }
+        &:nth-of-type(4):hover {
+            &:hover i{
+                color: #fff;
+            }
+            border-color: #4267B2;
+            background-color: #4267B2;
+        }
+        &:nth-of-type(3):hover {
+            &:hover i{
+                color: #fff;
+            }
+            border-color: #1DA1F2;
+            background-color: #1DA1F2;
+        }
+    }
+}

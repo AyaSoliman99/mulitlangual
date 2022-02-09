@@ -1,0 +1,29 @@
+/* Start Headings */
+.heading-container{
+    text-align: center;
+    margin-bottom: 30px;
+    .heading{
+        font-size: 30px;
+        text-transform: capitalize;
+        margin: 20px 0;
+    }
+    p{
+        font-size: 16px;
+        line-height: 2;
+        max-width: 90%;
+        margin: auto;
+        color: $alt-paragraph-color;
+    }
+}
+
+html[dir="rtl"]{
+    .heading-container{
+        .heading{
+            font-size: 40px;
+        }
+        p{
+            letter-spacing: 1px;
+        }
+    }
+}
+/* End Headings*/

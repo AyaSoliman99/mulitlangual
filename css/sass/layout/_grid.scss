@@ -1,0 +1,41 @@
+/* Start Global Rules */
+// ::-webkit-scrollbar{
+//     width: 10px;
+// }
+// ::-webkit-scrollbar-thumb{
+//     background-color: $main-color;
+//     height: 5px;
+// }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+    // overflow: hidden;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+    color: $heading-color;
+}
+p{
+    color: $main-paragraph-color;
+}
+/* End Global Rules */

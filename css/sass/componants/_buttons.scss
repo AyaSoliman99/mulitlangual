@@ -1,0 +1,70 @@
+/* ==============Start buttons==============*/
+
+/* Start downloads buttons*/
+.buttons{
+    display: flex;
+    .button{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 10px 10px;
+        padding: 10px 13px;
+        background-color: $bg-color;
+        text-align: center;
+        border-radius: 20px;
+        box-shadow: 0 3px 3px rgb(0 0 0 / 12%), 0 3px 2px rgb(0 0 0 / 24%);
+        // transition:$transition;
+        img{
+            margin: 0 10px;
+            transition:.5s ease-in-out;
+        }
+        .text-content{
+            text-align: center;
+        }
+        h4{
+            font: {
+                size: 15px;
+                weight:normal ;
+            }
+            color: $alt-paragraph-color;
+        }
+        h2{
+            font-size: 20px;
+            text-transform: capitalize;
+        }
+    }
+}
+@include breakPoints(mobile){
+.buttons{
+        flex-wrap: wrap;
+        .button{
+            margin: 10px auto;
+            h4{
+                font-size: 13px;
+            }
+            h2{
+            font-size: 16px;
+            }
+            }
+    }
+
+}
+
+/*Start Scroll to top button*/
+// .up-icon{
+//     font-size: 50px;
+//     right: -60px;
+//     position: fixed;
+//     bottom: 20px;
+//     transition: $transition ease-in-out;
+//     z-index: 1000;
+//     border-radius: 50%;
+//     color: $main-color;
+//     cursor: pointer;
+// }
+// .up-icon:hover{
+//     color: #198a66;
+// }
+/*End Scroll to top button*/ 
+
+/* =================End buttons==================== */
