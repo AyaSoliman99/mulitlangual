@@ -405,6 +405,7 @@ html[dir=rtl] header ul.menu li a:hover::before {
 .about {
   padding: 60px 0;
   background-color: #F3F3F3;
+  overflow: hidden;
 }
 .about .text {
   margin-top: 20px;

@@ -223,6 +223,7 @@ html[dir="rtl"]{
 .about{
     padding: $padding 0;
     background-color: $bg-color;
+    overflow: hidden;
     .text{
         margin-top: 20px;
         h2,h5{

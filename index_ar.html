@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.0/css/hover-min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -169,13 +170,13 @@
   <!-- Start advangets Section -->
     <section class="advangtes" id="adv">
         <div class="container">
-            <div class="heading-container">
+            <div class="heading-container" data-aos="zoom-in-up">
                 <h3 class="heading">مميزاتنا</h3>
                 <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة</p>
             </div>
-            <div class="row swiper">
+            <div class="row swiper" data-aos="slide-up">
                 <div class="col-md-4 col-12">
-                    <div class="box text-center hvr-radial-in">
+                    <div class="box text-center hvr-radial-in" >
                         <img src="imgs/Group 26829.png" alt="">
                         <h4>كتابة العنوان</h4>
                         <p>هذا النص هو مثال لنص يمكن أن يستبدل ف نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى،
@@ -183,7 +184,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-12">
-                    <div class="box text-center hvr-radial-in">
+                    <div class="box text-center hvr-radial-in" >
                         <img src="imgs/Group 26827.png" alt="">
                         <h4>كتابة العنوان</h4>
                         <p>هذا النص هو مثال لنص يمكن أن يستبدل ف نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى،
@@ -208,10 +209,10 @@
     <div class="container">
       <div class="row">
       <div class="col-lg-6">
-        <img src="imgs/Group 17876.png" alt="">
+        <img src="imgs/Group 17876.png" alt="" data-aos="fade-left">
       </div>
       <div class="col-lg-6">
-        <div class="text">
+        <div class="text" data-aos="fade-right">
           <h5>من نحن</h5>
           <h2>معلومات عن التطبيق</h2>
           <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى
@@ -251,7 +252,7 @@
   <!-- Start Download Section -->
   <section class="download">
     <div class="container">
-      <div class="content">
+      <div class="content" data-aos="fade-left">
         <h3>حمل التطبيق الان</h3>
         <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى
           ، حيث يمكنك أن تولد مثل هذا النص أو العديد من
@@ -347,6 +348,10 @@
   autoplay:true,
   rtl:true,
 });
+            </script>
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+            <script>
+              AOS.init();
             </script>
     <script src="js/main.js"></script>
 </body>

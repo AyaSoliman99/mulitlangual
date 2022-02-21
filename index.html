@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.0/css/hover-min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -169,14 +170,14 @@
   <!-- Start Advangtes -->
     <section class="advangtes" id="adv">
         <div class="container">
-            <div class="heading-container">
+            <div class="heading-container" data-aos="zoom-in-up">
                 <h3 class="heading">our advantages</h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum amet voluptatum  repudiandae laborum voluptates debitis facere ad 
                      nemo dolore.</p>
             </div>
-            <div class="row swiper">
+            <div class="row swiper " data-aos="slide-up">
                 <div class="col-md-4 col-12">
-                    <div class="box text-center hvr-radial-in">
+                    <div class="box text-center hvr-radial-in" >
                         <img src="imgs/Group 26829.png" alt="">
                         <h4>write the address</h4>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis asperiores fuga natus corrupti soluta dolorem, aspernatur mollitia 
@@ -208,10 +209,10 @@
     <div class="container">
       <div class="row">
       <div class="col-lg-6">
-        <img src="imgs/Group 17876.png" alt="">
+        <img src="imgs/Group 17876.png" alt="" data-aos="fade-right">
       </div>
       <div class="col-lg-6">
-        <div class="text">
+        <div class="text" data-aos="fade-left">
           <h5>about</h5>
           <h2>information about application</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt ut exercitationem optio repellat hic
@@ -251,7 +252,7 @@
   <!-- Start Download Section -->
   <section class="download">
     <div class="container">
-      <div class="content">
+      <div class="content" data-aos="fade-right">
         <h3>download the app now</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, architecto pariatur! Harum aut at, delectus labore 
           adipisci nam cumque maxime sequi enim nostrum accusantium velit quisquam, sed, inventore fugiat! Nostrum.</p>
@@ -341,6 +342,10 @@ $('.slider').slick({
   slidesToScroll: 1,
   autoplay:true,
 });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
     <script src="js/main.js"></script>
 </body>
